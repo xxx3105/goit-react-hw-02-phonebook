@@ -33,6 +33,7 @@ img{
 h2{
 margin: 0;
 padding: 0;
+padding-left: 0;
 
 }
 
