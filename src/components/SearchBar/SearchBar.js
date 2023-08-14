@@ -1,5 +1,4 @@
 import { ContainerForSearch, SearchInput } from './SearchBar.styled';
-
 const { TitleOfBlocks } = require('styles/GlobalStyle');
 
 export const SearchBar = ({ datasSearch, onChangeReq }) => {

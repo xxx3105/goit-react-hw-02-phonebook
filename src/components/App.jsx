@@ -4,7 +4,6 @@ import 'modern-normalize';
 import { NewContact } from './NewContact/NewContact';
 import { Output } from './Outputs/Output';
 import { nanoid } from 'nanoid';
-import { SearchBar } from './SearchBar/SearchBar';
 
 export const App = () => {
   return (
