@@ -2,7 +2,7 @@ import React from 'react';
 import { Formik, Form } from 'formik';
 import { nanoid } from 'nanoid';
 import { Container, TitleOfBlocks } from 'styles/GlobalStyle';
-import { ButtonAdder, Inputs, StyledErrorMessage } from './NewContact.styled';
+import { ButtonAdder, Inputs, StyledErrorMessage } from './ContactForm.styled';
 import * as Yup from 'yup';
 
 const schema = Yup.object().shape({
@@ -17,7 +17,7 @@ const schema = Yup.object().shape({
 });
 
 // export const ContactsBook = ({ onAdd, onSearch }) => (
-export const NewContact = ({ onAdd }) => (
+export const ContactForm = ({ onAdd }) => (
   <Container>
     <Formik
       initialValues={{

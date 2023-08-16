@@ -1,7 +1,7 @@
-import { ContainerForSearch, SearchInput } from './SearchBar.styled';
+import { ContainerForSearch, SearchInput } from './Filter.styled';
 const { TitleOfBlocks } = require('styles/GlobalStyle');
 
-export const SearchBar = ({ datasSearch, onChangeReq }) => {
+export const Filter = ({ datasSearch, onChangeReq }) => {
   return (
     <ContainerForSearch>
       <TitleOfBlocks>Find contacts by name:</TitleOfBlocks>

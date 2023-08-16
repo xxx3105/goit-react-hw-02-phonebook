@@ -1,9 +1,12 @@
-import { OutputPlace } from 'components/Outputs/Output.syled';
-import { DelBut, СontactDesign } from 'components/OutputItem/OutputItem.styled';
+import {
+  DelBut,
+  SpicsokCont,
+  СontactDesign,
+} from 'components/ListItem/ListItem.styled';
 
-export const OutputItem = ({ datas, deleteCont }) => {
+export const ListItem = ({ datas, deleteCont }) => {
   return (
-    <OutputPlace>
+    <SpicsokCont>
       {datas.map(contact => (
         <СontactDesign key={contact.id}>
           <b>{contact.name}</b>: {contact.number}{' '}
@@ -12,6 +15,6 @@ export const OutputItem = ({ datas, deleteCont }) => {
           </DelBut>
         </СontactDesign>
       ))}
-    </OutputPlace>
+    </SpicsokCont>
   );
 };
